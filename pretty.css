@@ -1,0 +1,64 @@
+
+#code{
+
+}
+
+.time{
+  outline: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+  width:90%;
+  color:gray;
+  text-align:center;
+}
+
+#json{
+ background-color:#eee;
+ width:90%;
+ height: 200px;
+ padding: 5px;
+ border: 1px solid #ccc;
+}
+
+#title{
+ background-color:#eee;
+ width:90%;
+ padding: 5px;
+ border: 1px solid #ccc;
+}
+
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; width:90%; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+
+pre {
+  background-color:#eee;
+  overflow:auto;
+}
+
+pre code,
+pre .line-number {
+  font:normal normal 12px/14px "Courier New",Courier,Monospace;
+  color:black;
+  display:block;
+}
+
+pre .line-number {
+  float:left;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+}
+
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+
+pre .cl {
+  display:block;
+  clear:both;
+}
